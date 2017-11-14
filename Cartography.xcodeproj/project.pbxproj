@@ -1209,6 +1209,7 @@
 				INFOPLIST_FILE = Cartography/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertboehnke.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Cartography;
 				SKIP_INSTALL = YES;
@@ -1230,6 +1231,7 @@
 				INFOPLIST_FILE = Cartography/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertboehnke.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Cartography;
 				SKIP_INSTALL = YES;
